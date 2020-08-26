@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(228, 228, 228);
+}
+.contenedor{
+    margin-top: 20rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    height: 2.4rem;
+    border: green 2px solid;
+    background-color: rgb(65, 44, 13);
+}
+.contenedor p{
+    margin-top: 3px;
+    font-size: 1.2rem;
+}
+input{
+    background-color: black;
+    width: 80%;
+    font-size: 1rem;
+    padding: 10px;
+}
+input:focus{
+    outline: none;
+}
