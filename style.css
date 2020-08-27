@@ -17,19 +17,26 @@ body{
     margin-top: 20rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 80%;
     height: 2.4rem;
     border: green 2px solid;
     background-color: rgb(65, 44, 13);
 }
 .contenedor p{
-    margin-top: 3px;
     font-size: 1.2rem;
+}
+.contChat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 15%;
 }
 input{
     background-color: black;
-    width: 80%;
+    width: 85%;
     font-size: 1rem;
     padding: 10px;
 }
